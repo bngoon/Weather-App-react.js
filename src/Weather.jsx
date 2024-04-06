@@ -14,7 +14,7 @@ function Weather({ weatherData }) {
           />
           <p className="tempF">{Math.round(weatherData.main.temp)}°F</p>
           <p className="humidity">humidity: {weatherData.main.humidity}%</p>
-          <p className="wind">wind: {Math.round(weatherData.wind.speed)}mph</p>
+          <p className="wind">wind: {Math.round(weatherData.wind.speed)} mph</p>
         </div>
       )}
     </div>
